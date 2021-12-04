@@ -1,0 +1,51 @@
+.drop-btn-click {
+	background: url(.././images/drop_button.png);
+	height: 50px;
+	width: 80px;
+	padding-right: 60px;
+	margin: 0% 45%;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	animation-name: asdasd;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	left: 10px;
+}
+.buy-buton {
+	margin-top: 50px;
+}
+.horizoon {
+	border-color: rgb(201, 154, 255);
+	background-color: transparent;
+	opacity: 1;
+	border-style: dotted;
+	border-width: 20px;
+	border-left: 0vh;
+	border-bottom: 0vh;
+	border-right: 0vh;
+}
+
+@keyframes asdasd {
+	0% {
+		top: 10px;
+	}
+	20% {
+		top: -30px;
+	}
+	40% {
+		top: 30px;
+		transform: scale(2);
+	}
+	60% {
+		top: -30px;
+	}
+	80% {
+		top: 30px;
+	}
+	100% {
+		top: 10px;
+	}
+}

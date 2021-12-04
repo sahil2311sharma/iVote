@@ -1,0 +1,26 @@
+.whole_page_container {
+	background: url('../images/amaze.gif');
+	background-size: cover;
+}
+.procedure {
+	height: 92vh;
+	padding: 20px;
+}
+.inner {
+	height: 100%;
+	border-radius: 80px;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+.container-grid {
+	background-color: aquamarine;
+	display: inline-block;
+	padding: 0px 20px;
+	border-radius: 50px;
+	color: black;
+}
+.buttone {
+	background-color: black;
+	margin-left: 20px;
+}

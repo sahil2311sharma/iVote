@@ -1,0 +1,139 @@
+.two_fa_box {
+	box-sizing: border-box;
+	padding: 3% 10% 0% 10%;
+	margin: 0%;
+	background: url(../images/amaze.gif);
+	background-size: cover;
+	min-height: 100vh;
+}
+.header_two_fa {
+	text-align: center;
+	margin-bottom: 5vh;
+	font-family: 'Cinzel';
+	font-weight: 900;
+	font-size: 3pc;
+	color: rgb(252, 112, 112);
+	font-style: italic;
+}
+.main_body_two_fa {
+	display: flex;
+}
+.main_body_two_fa_1 {
+	width: 100vh;
+	font-size: 15px;
+	color: whitesmoke;
+}
+.main_body_two_fa_1 > h3 {
+	text-align: center;
+	font-family: 'Cinzel';
+	font-size: 3pc;
+}
+.main_body_two_fa_1 > h4 {
+	text-align: center;
+}
+.secret_token_css_box {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	justify-items: center;
+}
+.secret_token_css {
+	text-align: center;
+	min-width: 500px;
+	color: blue;
+	font-size: 20px;
+}
+.link_Style {
+	color: black;
+	text-decoration: none;
+}
+.copy_button {
+	margin-top: 10px;
+}
+.copy_button > .secret_token_submit {
+	padding: 5px 20px;
+	background-color: rgb(80, 80, 255);
+	color: white;
+	border: none;
+	animation-duration: 3s;
+	transform: scale(0.8);
+	animation-iteration-count: infinite;
+	border-width: 7px;
+	animation-name: asd;
+	border-style: outset;
+	border-color: rgb(255, 227, 227);
+}
+.copy_button > .secret_token_submit:hover {
+	transition: 1s;
+	border-radius: 50px;
+	position: relative;
+	top: 20px;
+	background-color: rgb(132, 255, 255);
+}
+.secret_token_submit:hover {
+	background-color: blue;
+	color: white;
+}
+.main_body_two_fa_2 {
+	/* background-color: bisque; */
+	width: 50%;
+}
+.reset_btn {
+	background-color: rgb(255, 134, 86);
+	margin-left: 10px;
+}
+.main_body_two_fa_2 > h4 {
+	text-align: center;
+	font-family: 'Cinzel';
+	font-size: 3pc;
+	color: white;
+}
+.gen-otp_container {
+	margin: 34% 0px 0pc 0pc;
+}
+.generated_otp {
+	margin: 90px 90px 20px 90px;
+}
+.generated_otp_css {
+	width: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	justify-items: center;
+	color: blue;
+	font-size: 20px;
+	width: 120%;
+}
+
+@keyframes asd {
+	0% {
+		background-color: rgb(149, 192, 255);
+		border-radius: 10px;
+	}
+	20% {
+		background-color: rgb(255, 194, 170);
+		border-radius: 20px;
+	}
+	40% {
+		background-color: rgb(113, 247, 142);
+		border-radius: 40px;
+		transform: scale(1.2);
+	}
+	50% {
+		border-radius: 50px;
+		color: black;
+	}
+	60% {
+		background-color: rgb(163, 163, 231);
+		border-radius: 40px;
+		transform: scale(1.2);
+	}
+	80% {
+		background-color: rgb(233, 179, 255);
+		border-radius: 20px;
+	}
+	100% {
+		background-color: rgb(149, 192, 255);
+		border-radius: 10px;
+	}
+}

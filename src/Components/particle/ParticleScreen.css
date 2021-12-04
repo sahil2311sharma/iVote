@@ -1,0 +1,65 @@
+#text_div {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgb(14, 255, 255);
+}
+
+.center_all {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgb(10, 43, 187);
+}
+.custom-subTitle {
+	font-size: 70px;
+	color: white;
+}
+
+.Particle_screen {
+	background-color: #aebaf9;
+	background-color: #4d56e8;
+
+	background: #348288;
+	background: -webkit-linear-gradient(top left, #348288, #4c4ae2);
+	background: -moz-linear-gradient(top left, #348288, #4c4ae2);
+	background: linear-gradient(to bottom right, #348288, #4c4ae2);
+
+	/* background-color: black; */
+}
+.sasdasdasd {
+	font-size: 90px;
+	text-align: center;
+	color: white;
+}
+@media screen and (max-width: 1050px) {
+	.sasdasdasd {
+		font-size: 70px;
+		position: relative;
+		bottom: 200px;
+	}
+}
+@media screen and (max-width: 780px) {
+	.Particle_screen {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+	}
+	.sasdasdasd {
+		font-size: 50px;
+		position: relative;
+		bottom: 200px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.sasdasdasd {
+		font-size: 35px;
+		position: relative;
+		bottom: 270px;
+	}
+}

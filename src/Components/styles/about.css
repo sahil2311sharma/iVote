@@ -1,0 +1,35 @@
+#about {
+	/* background-image: url(../images/sed.jpg); */
+	/* margin: 0px !important; */
+	background: rgb(156, 104, 211);
+	background: linear-gradient(
+		171deg,
+		rgba(156, 104, 211, 1) 20%,
+		rgba(71, 180, 173, 1) 55%,
+		rgba(142, 177, 218, 1) 86%
+	);
+	color: white;
+}
+.about_1233 {
+	background: rgb(156, 104, 211);
+	background: linear-gradient(
+		171deg,
+		rgba(156, 104, 211, 1) 20%,
+		rgba(71, 180, 173, 1) 55%,
+		rgba(142, 177, 218, 1) 86%
+	);
+}
+.conatiner {
+	margin: 0px 0px !important;
+	padding: 0px !important;
+}
+.section23 {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	min-height: max-content;
+}
+.about_1233 {
+	min-height: 10vh;
+	/* width: 203vh; */
+}

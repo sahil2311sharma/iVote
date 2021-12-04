@@ -1,0 +1,46 @@
+.web-cam {
+	background: rgb(98, 98, 255);
+	font-size: 50px;
+	border-radius: 50px;
+	margin-top: 90px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	animation-name: zigzag;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+.web-cam:hover {
+	transition: 0.5s;
+	background: blueviolet;
+}
+@keyframes zigzag {
+	0% {
+		transition: 2s;
+		background-color: rgb(149, 192, 255);
+		transform: rotate(-20deg);
+	}
+	20% {
+		transition: 1s;
+		transform: rotate(20deg);
+		background-color: rgb(255, 194, 170);
+	}
+	40% {
+		transition: 1s;
+		transform: rotate(-20deg);
+		background-color: rgb(113, 247, 142);
+	}
+	60% {
+		transition: 1s;
+		transform: rotate(+20deg);
+		background-color: rgb(163, 163, 231);
+	}
+	80% {
+		transition: 1s;
+		transform: rotate(-20deg);
+		background-color: rgb(233, 179, 255);
+	}
+	100% {
+		transition: 1s;
+		transform: rotate(+20deg);
+		background-color: rgb(149, 192, 255);
+	}
+}

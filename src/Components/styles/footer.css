@@ -1,0 +1,27 @@
+.op {
+	opacity: 0.7;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+  
+a:hover {
+	text-decoration: none;
+	opacity: 0.5;
+}
+  
+a:active {
+	text-decoration: underline;
+}
+a {
+	color: wheat !important;
+}
+ul {
+	margin-left: -30px ;
+}

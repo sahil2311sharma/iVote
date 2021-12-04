@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+	margin: 0%;
+	padding: 0%;
+}
+.center {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+#contact {
+	background: rgb(112, 110, 156);
+	background: linear-gradient(
+		90deg,
+		rgba(112, 110, 156, 1) 0%,
+		rgba(162, 162, 245, 1) 56%,
+		rgba(11, 156, 186, 1) 100%
+	);
+	/* background: black; */
+	min-height: 100vh;
+	margin-bottom: -45px;
+}
+
+.cscscas {
+	background-color: rgba(56, 56, 56, 0.377);
+	padding: 20px;
+	border-radius: 20px;
+}
+.h1-tag {
+	text-align: center;
+}
+.center_alll {
+	margin: 50px 20% 0px;
+}
+
+.message-btn {
+	display: block;
+	margin-top: 20px;
+	background-color: red;
+}
+.message-btn:hover {
+	transition: 2s;
+	background-color: crimson;
+}
+
+.left-shigt {
+	text-align: left;
+	color: white;
+	margin-top: 20px;
+}
+.contact_pageeee {
+	margin-bottom: -50px;
+}

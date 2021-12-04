@@ -1,0 +1,109 @@
+#signin {
+	background-color: #aebaf9;
+	background-color: #4d56e8;
+
+	background: #348288;
+	background: -webkit-linear-gradient(top left, #348288, #4c4ae2);
+	background: -moz-linear-gradient(top left, #348288, #4c4ae2);
+	background: linear-gradient(to bottom right, #348288, #4c4ae2);
+	min-height: 100vh;
+	text-align: center;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	/* background-image: url(/src/Components/images/check.png); */
+	height: 90vh;
+	padding: 20px;
+	width: 150vh;
+	/* background-size: cover; */
+}
+.grid-item-1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	position: relative;
+	top: 105vh;
+	background: url('/src/Components/images/back.png');
+	background-size: cover;
+	opacity: 0.5;
+}
+.typical_upper {
+	color: #fff;
+	font-size: 35px;
+}
+.grid-item-2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	position: relative;
+	top: 110vh;
+}
+.form_format {
+	height: 450px;
+	background-color: rgba(245, 255, 105, 0.034);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	padding: 50px;
+	border-radius: 20px;
+}
+.form_format:hover {
+	background-color: rgba(53, 51, 52, 0.151);
+	border-radius: 50px;
+	transition: 0.3s;
+	transform: scale(1.2);
+}
+.submit_btn_d {
+	margin-top: 30px;
+	text-align: center;
+}
+.submit_btn {
+	background-color: red;
+	padding: 2px 15px;
+	text-align: center;
+	background: rgb(142, 191, 120);
+	background: radial-gradient(
+		circle,
+		rgba(142, 191, 120, 1) 13%,
+		rgba(62, 172, 87, 1) 43%,
+		rgba(133, 198, 59, 1) 88%
+	);
+	color: white;
+	border-radius: 50px;
+}
+.submit_btn:hover {
+	background-color: blue;
+	transition: 0.5s;
+	transform: translate(5px, 5px);
+	transform: scale(1.3);
+}
+@media screen and (max-width: 780px) {
+	.grid-item-1 {
+		background-color: indigo;
+		display: none;
+	}
+}
+@media screen and (max-width: 1050px) {
+	.form_format {
+		height: 450px;
+		background-color: rgba(245, 255, 105, 0.034);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+		padding: 50px;
+		border-radius: 20px;
+		position: absolute;
+		top: -100vh;
+	}
+	.footer_div {
+		display: none;
+	}
+	.grid-item-2 {
+		display: none;
+	}
+}
